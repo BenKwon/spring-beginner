@@ -4,7 +4,7 @@ import javax.persistence.*;
 
 
 //jpa가 관리하는 엔티티가 되는것이다
-@Entity
+//@Entity
 public class Member {
 
     @Id @GeneratedValue(strategy = GenerationType.IDENTITY) //DB가 알아서 생성해주는것 IDENTITY
